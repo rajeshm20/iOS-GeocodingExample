@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1705E982253D8DA400CAFC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E981253D8DA400CAFC00 /* AppDelegate.swift */; };
+		1705E984253D8DA400CAFC00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E983253D8DA400CAFC00 /* SceneDelegate.swift */; };
+		1705E986253D8DA400CAFC00 /* ForwardGeocodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E985253D8DA400CAFC00 /* ForwardGeocodingViewController.swift */; };
+		1705E989253D8DA500CAFC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705E987253D8DA500CAFC00 /* Main.storyboard */; };
+		1705E98B253D8DF600CAFC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1705E98A253D8DF600CAFC00 /* Assets.xcassets */; };
+		1705E98E253D8DF600CAFC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1705E98C253D8DF600CAFC00 /* LaunchScreen.storyboard */; };
+		1705E999253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E998253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.swift */; };
+		1705E9A4253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E9A3253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.swift */; };
+		1705E9B8253D8EB000CAFC00 /* ReverseGeocodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1705E9B7253D8EB000CAFC00 /* ReverseGeocodingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1705E995253D8DF700CAFC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1705E976253D8DA400CAFC00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1705E97D253D8DA400CAFC00;
+			remoteInfo = ForwarReverseGeoCoding;
+		};
+		1705E9A0253D8DF700CAFC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1705E976253D8DA400CAFC00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1705E97D253D8DA400CAFC00;
+			remoteInfo = ForwarReverseGeoCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1705E97E253D8DA400CAFC00 /* ForwarReverseGeoCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForwarReverseGeoCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705E981253D8DA400CAFC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1705E983253D8DA400CAFC00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1705E985253D8DA400CAFC00 /* ForwardGeocodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardGeocodingViewController.swift; sourceTree = "<group>"; };
+		1705E988253D8DA500CAFC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1705E98A253D8DF600CAFC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1705E98D253D8DF600CAFC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1705E98F253D8DF700CAFC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705E994253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwarReverseGeoCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705E998253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwarReverseGeoCodingTests.swift; sourceTree = "<group>"; };
+		1705E99A253D8DF700CAFC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705E99F253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwarReverseGeoCodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1705E9A3253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwarReverseGeoCodingUITests.swift; sourceTree = "<group>"; };
+		1705E9A5253D8DF700CAFC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1705E9B7253D8EB000CAFC00 /* ReverseGeocodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1705E97B253D8DA400CAFC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E991253D8DF700CAFC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E99C253D8DF700CAFC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1705E975253D8DA400CAFC00 = {
+			isa = PBXGroup;
+			children = (
+				1705E980253D8DA400CAFC00 /* ForwarReverseGeoCoding */,
+				1705E997253D8DF700CAFC00 /* ForwarReverseGeoCodingTests */,
+				1705E9A2253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests */,
+				1705E97F253D8DA400CAFC00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1705E97F253D8DA400CAFC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1705E97E253D8DA400CAFC00 /* ForwarReverseGeoCoding.app */,
+				1705E994253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.xctest */,
+				1705E99F253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1705E980253D8DA400CAFC00 /* ForwarReverseGeoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				1705E981253D8DA400CAFC00 /* AppDelegate.swift */,
+				1705E983253D8DA400CAFC00 /* SceneDelegate.swift */,
+				1705E985253D8DA400CAFC00 /* ForwardGeocodingViewController.swift */,
+				1705E9B7253D8EB000CAFC00 /* ReverseGeocodingViewController.swift */,
+				1705E987253D8DA500CAFC00 /* Main.storyboard */,
+				1705E98A253D8DF600CAFC00 /* Assets.xcassets */,
+				1705E98C253D8DF600CAFC00 /* LaunchScreen.storyboard */,
+				1705E98F253D8DF700CAFC00 /* Info.plist */,
+			);
+			path = ForwarReverseGeoCoding;
+			sourceTree = "<group>";
+		};
+		1705E997253D8DF700CAFC00 /* ForwarReverseGeoCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1705E998253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.swift */,
+				1705E99A253D8DF700CAFC00 /* Info.plist */,
+			);
+			path = ForwarReverseGeoCodingTests;
+			sourceTree = "<group>";
+		};
+		1705E9A2253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1705E9A3253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.swift */,
+				1705E9A5253D8DF700CAFC00 /* Info.plist */,
+			);
+			path = ForwarReverseGeoCodingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1705E97D253D8DA400CAFC00 /* ForwarReverseGeoCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705E9A8253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCoding" */;
+			buildPhases = (
+				1705E97A253D8DA400CAFC00 /* Sources */,
+				1705E97B253D8DA400CAFC00 /* Frameworks */,
+				1705E97C253D8DA400CAFC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForwarReverseGeoCoding;
+			productName = ForwarReverseGeoCoding;
+			productReference = 1705E97E253D8DA400CAFC00 /* ForwarReverseGeoCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1705E993253D8DF700CAFC00 /* ForwarReverseGeoCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705E9AB253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCodingTests" */;
+			buildPhases = (
+				1705E990253D8DF700CAFC00 /* Sources */,
+				1705E991253D8DF700CAFC00 /* Frameworks */,
+				1705E992253D8DF700CAFC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1705E996253D8DF700CAFC00 /* PBXTargetDependency */,
+			);
+			name = ForwarReverseGeoCodingTests;
+			productName = ForwarReverseGeoCodingTests;
+			productReference = 1705E994253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1705E99E253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1705E9AE253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCodingUITests" */;
+			buildPhases = (
+				1705E99B253D8DF700CAFC00 /* Sources */,
+				1705E99C253D8DF700CAFC00 /* Frameworks */,
+				1705E99D253D8DF700CAFC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1705E9A1253D8DF700CAFC00 /* PBXTargetDependency */,
+			);
+			name = ForwarReverseGeoCodingUITests;
+			productName = ForwarReverseGeoCodingUITests;
+			productReference = 1705E99F253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1705E976253D8DA400CAFC00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1705E97D253D8DA400CAFC00 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1705E993253D8DF700CAFC00 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1705E97D253D8DA400CAFC00;
+					};
+					1705E99E253D8DF700CAFC00 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1705E97D253D8DA400CAFC00;
+					};
+				};
+			};
+			buildConfigurationList = 1705E979253D8DA400CAFC00 /* Build configuration list for PBXProject "ForwarReverseGeoCoding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1705E975253D8DA400CAFC00;
+			productRefGroup = 1705E97F253D8DA400CAFC00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1705E97D253D8DA400CAFC00 /* ForwarReverseGeoCoding */,
+				1705E993253D8DF700CAFC00 /* ForwarReverseGeoCodingTests */,
+				1705E99E253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1705E97C253D8DA400CAFC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705E98E253D8DF600CAFC00 /* LaunchScreen.storyboard in Resources */,
+				1705E98B253D8DF600CAFC00 /* Assets.xcassets in Resources */,
+				1705E989253D8DA500CAFC00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E992253D8DF700CAFC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E99D253D8DF700CAFC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1705E97A253D8DA400CAFC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705E986253D8DA400CAFC00 /* ForwardGeocodingViewController.swift in Sources */,
+				1705E9B8253D8EB000CAFC00 /* ReverseGeocodingViewController.swift in Sources */,
+				1705E982253D8DA400CAFC00 /* AppDelegate.swift in Sources */,
+				1705E984253D8DA400CAFC00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E990253D8DF700CAFC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705E999253D8DF700CAFC00 /* ForwarReverseGeoCodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1705E99B253D8DF700CAFC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1705E9A4253D8DF700CAFC00 /* ForwarReverseGeoCodingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1705E996253D8DF700CAFC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1705E97D253D8DA400CAFC00 /* ForwarReverseGeoCoding */;
+			targetProxy = 1705E995253D8DF700CAFC00 /* PBXContainerItemProxy */;
+		};
+		1705E9A1253D8DF700CAFC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1705E97D253D8DA400CAFC00 /* ForwarReverseGeoCoding */;
+			targetProxy = 1705E9A0253D8DF700CAFC00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1705E987253D8DA500CAFC00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1705E988253D8DA500CAFC00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1705E98C253D8DF600CAFC00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1705E98D253D8DF600CAFC00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1705E9A6253D8DF700CAFC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1705E9A7253D8DF700CAFC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1705E9A9253D8DF700CAFC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1705E9AA253D8DF700CAFC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1705E9AC253D8DF700CAFC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCodingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForwarReverseGeoCoding.app/ForwarReverseGeoCoding";
+			};
+			name = Debug;
+		};
+		1705E9AD253D8DF700CAFC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCodingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForwarReverseGeoCoding.app/ForwarReverseGeoCoding";
+			};
+			name = Release;
+		};
+		1705E9AF253D8DF700CAFC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForwarReverseGeoCoding;
+			};
+			name = Debug;
+		};
+		1705E9B0253D8DF700CAFC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ForwarReverseGeoCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajeshmani.ForwarReverseGeoCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ForwarReverseGeoCoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1705E979253D8DA400CAFC00 /* Build configuration list for PBXProject "ForwarReverseGeoCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705E9A6253D8DF700CAFC00 /* Debug */,
+				1705E9A7253D8DF700CAFC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705E9A8253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705E9A9253D8DF700CAFC00 /* Debug */,
+				1705E9AA253D8DF700CAFC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705E9AB253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705E9AC253D8DF700CAFC00 /* Debug */,
+				1705E9AD253D8DF700CAFC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1705E9AE253D8DF700CAFC00 /* Build configuration list for PBXNativeTarget "ForwarReverseGeoCodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1705E9AF253D8DF700CAFC00 /* Debug */,
+				1705E9B0253D8DF700CAFC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1705E976253D8DA400CAFC00 /* Project object */;
+}
